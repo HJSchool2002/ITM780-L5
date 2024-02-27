@@ -1,0 +1,20 @@
+body {
+  background-color: lightblue;
+}
+nav {
+  background-color: #f79f79;
+  width: 60%;
+}
+nav a {
+  padding: 15px;
+  font-size: 25pt;
+  color: #58355e;
+}
+nav a:hover {
+  color: #f1f1f1;
+}
+p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}

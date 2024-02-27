@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/home.css" />
+    <title>L5</title>
+    <script src="../home.js"></script>
+  </head>
+  <body>
+    <h1>This is the homepage</h1>
+    <div onmouseout="normal();" onmouseover="hover();" id="something">
+      <nav>
+        <a href="/public_html/About.html">About me</a> |
+        <a href="/public_html/project.html">Project</a> |
+        <a href="#contactme/">Contact me</a> |
+        <a href="#more/">More about myself</a> |
+        <a href="#background/">My background</a>
+      </nav>
+    </div>
+    <p>Click the button to demonstrate the prompt box.</p>
+    <button onclick="myFunction()">Enter your name</button>
+    <p id="demo"></p>
+    <br /><br /><br />
+
+    <p>An image , click to enlarge!</p>
+    <img
+      src="imaaage.jpeg"
+      alt="Image of myself"
+      style="width: 200px; height: 200px"
+      onclick="imageEnlarge()"
+      id="img1"
+    />
+    <br /><br /><br />
+    <p id="#contactme">To contact me you can email me at example@email.com</p>
+    <p id="more">I am learning web development</p>
+    <p id="background">I am of comp sci background</p>
+  </body>
+</html>
